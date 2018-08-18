@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    border:1px none;
+}
+
+.jumbotron {
+    margin: 0px;
+    height: 100px;
+    top: 0;
+}
+
+h1  {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: orangered;
+    color: aliceblue;
+}
+
+
+#rules  {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ff944d;
+    border: 10px;
+    background-clip: content-box;
+}
+
+#ranNumb {
+    padding: 70px 0;
+    background-color:  #b3b3cc;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    height: 200px;
+    border: 10px;
+}
+
+#guess {
+    padding: 25px 10px 25px 10px;
+    background-color: #d1d1e0;
+    color:#f0f0f5  ;
+    font-size: 20px;
+    height: 200px;
+    border: 10px;
+}
+
+.crystals {
+    padding: 20px;
+}
+
+#score {
+    background-color: #b3e6ff;
+    height: 200px;
+    text-align: center;
+    font-size: 50px;
+    padding: 70px 0;
+    font-weight: bold;
+}
+
+
+{
+    padding: 100px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    height: 200px;
+    border: 10px;
+}
