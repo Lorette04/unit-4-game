@@ -3,11 +3,14 @@
     border:1px none;
 }
 
+
 .jumbotron {
-    margin: 0px;
-    height: 100px;
-    top: 0;
-}
+    margin: 10px;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 250px;
+    }
 
 h1  {
     text-align: center;
@@ -26,44 +29,52 @@ h1  {
 }
 
 #ranNumb {
-    padding: 70px 0;
+    margin: 10px;
     background-color:  #b3b3cc;
     color: black;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    height: 200px;
     border: 10px;
-}
-
-#guess {
-    padding: 25px 10px 25px 10px;
-    background-color: #d1d1e0;
-    color:#f0f0f5  ;
-    font-size: 20px;
-    height: 200px;
-    border: 10px;
-}
-
-.crystals {
-    padding: 20px;
+    border-width:5px; 
+    border-style: outset;
 }
 
 #score {
-    background-color: #b3e6ff;
-    height: 200px;
+  
     text-align: center;
     font-size: 50px;
-    padding: 70px 0;
     font-weight: bold;
+    border-width:5px; 
+    border-style: outset;
 }
 
 
-{
+
+#guess {
+    
+    background-color: #d1d1e0;
+    color:#f0f0f5  ;
+    font-size: 20px;
+    height: 100px;
+    /* border: 10px; */
+    border-width:5px; 
+    border-style: outset;
+
+}
+
+
+.crystals {
+    padding: 10px;
+    border-width:5px; 
+    border-style: outset;
+}
+
+/* {
     padding: 100px;
     font-weight: bold;
     color: black;
     font-size: 20px;
     height: 200px;
     border: 10px;
-}
+} */

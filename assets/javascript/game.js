@@ -41,7 +41,6 @@ $(document).ready(function(){
     // Generate Random Number for Target Number
     targetNumber = Math.floor(Math.random() * 120) + 19 ;
         
-        // targetNumber = parseInt(targetNumber);
         console.log(targetNumber);
 
         // Print to Target Placeholder
@@ -67,44 +66,45 @@ $(document).ready(function(){
 
 
     // When Clicking Crystal One Assign Value of CrysalVals[0]
-    $(".crystal1").on("click", function() {
-        
+    $("#crystal1").on("click", function() {
         crystalRed = parseInt(crystalVals[0]);
         yourScore += crystalRed;
         console.log("crystalRed = " + crystalRed);
         console.log("yourScore = " + yourScore);
-        $("#your-score").text(yourScore);
+        $("#score").text(yourScore);
         winLoss();
 
     });
 
     
 
-    $(".crystal2").on("click", function() {
-        
+    $("#crystal2").on("click", function() {
         crystalBlue = parseInt(crystalVals[1]);
         yourScore += crystalBlue;
+        console.log("crystalBlue= " + crystalBlue);
         console.log("yourScore = " + yourScore);
-        $("#your-score").text(yourScore);
+        $("#score").text(yourScore);
         winLoss();
     });
 
-    $(".crystal3").on("click", function() {
+    $("#crystal3").on("click", function() {
         
         crystalOrange = parseInt(crystalVals[2]);
         yourScore += crystalOrange;
+        console.log("crystalOrange = " + crystalOrange);
         console.log("yourScore = " + yourScore);
-        $("#your-score").text(yourScore);
+        $("#score").text(yourScore);
         winLoss();
 
     });
 
-    $(".crystal4").on("click", function() {
+    $("#crystal4").on("click", function() {
         
         crystalGreen = parseInt(crystalVals[3]);
         yourScore += crystalGreen;
+        console.log("crystalGreen = " + crystalGreen);
         console.log("yourScore = " + yourScore);
-        $("#your-score").text(yourScore);
+        $("#score").text(yourScore);
         winLoss();
 
     });
@@ -122,12 +122,12 @@ $(document).ready(function(){
     function winLoss() {
         if (yourScore === targetNumber) {
             wins++
-            $("#win-ct").text(wins);
+            $("#rightGuess").text(wins);
             
             startGame();
         } else if (yourScore > targetNumber) {
             losses++
-            $("#loss-ct").text(losses);
+            $("#wrongGuess").text(losses);
             
             startGame();
         }  
